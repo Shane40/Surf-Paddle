@@ -1,9 +1,33 @@
-body {
-	color: blue;
+.main img {
+	display: block;
+	overflow: auto;
+	margin: 3px; 
+	width: 1300px;
 }
-h1 {
-	text-decoration: underline;
+
+.blog {
+float: left;
+margin: 3px;
+font-family: 'Oswald', sans-serif;
 }
-h2 {
-	color: black;
+
+.about {
+
+
+}
+
+.name {
+
+
+}
+
+.Ironyard {
+
+
+}
+
+p {
+margin-left: 60px;
+width: 550px;
+font-style: ;
 }
