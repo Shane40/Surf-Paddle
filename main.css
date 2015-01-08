@@ -1,14 +1,37 @@
+
+
+header {
+  background-image: url("assets/header.jpg");
+	width: 1300px;
+	height: 523px;
+	margin-left: 6px;
+	margin-right: 6px;}
+
 .main img {
 	display: block;
 	overflow: auto;
 	margin: 3px; 
 	width: 1300px;
 }
+assets/logo.png-image {
+padding-left: 15px;
+}
+.blog > span {
+	vertical-align: center;
+	float: right;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
 
-.blog {
-float: left;
-margin: 3px;
-font-family: 'Oswald', sans-serif;
+.name {
+	padding: 40px;
+	text-align: center;
+	font-size: 60px;
+	text-transform: uppercase;
+}
+.name > span {
+	text-align: center;
+	font-size: 15px;
 }
 
 .about {
@@ -17,8 +40,16 @@ font-family: 'Oswald', sans-serif;
 }
 
 .name {
-
-
+overflow: auto;
+font-family: 'Oswald', sans-serif;
+text-align: center;
+margin-top: 30px;
+color: white;
+font-size: 60px;
+}
+.name > span{
+	float: top;
+	color: black;
 }
 
 .Ironyard {
