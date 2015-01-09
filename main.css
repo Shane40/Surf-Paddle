@@ -67,53 +67,152 @@ h6.seched {
 .textblock {
 	margin-left: 163px;
 	margin-top: 63px;
-	width: 600px;
+	width: 620px;
 }
 .textblock h2 {
+	width: 620px;
 	font-family: 'Oswald', sans-serif;
 	margin-top: 14px;
 	color: black;
 	font-size: 65px;
-	line-height: 68px;
+	line-height: 70px;
 	text-transform: uppercase;
 	margin-bottom: 10px;
+	margin-left: 0px;
+	border-right: 0px;
 }
-.tinyimage.img {
-	max-width: 20%;
+.tinyimage img {
+	padding-top: 3px;
+	padding-left: 5px;
 }
-
 .textblock p {
-width: 550px;
-font-family: 'Open Sans', sans-serif;
+	width: 620px;
+	padding-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 25px;
 }
-	
+.Anne {
+	display: inline-block;
+	color: blue;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	margin-left: 4px;
+	margin-top: -8px;
 }
-
-}
-
-}
-
-}
-
-
-.name {
-
-.name > span{
-	float: top;
+.on {
+	display: inline-block;
 	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	margin-left: 8px;
+	margin-top: -1px;
 }
-
-h2 {
-	width: 550px;
-	margin-left: 60px;
-	line-height: 50px;
-	font-size: 50px;
-	text-transform: uppercase;
-	font-family: 'Oswald', sans-serif;
+.Monday {
+	display: inline-block;
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	text-decoration: underline;
+	margin-left: 0px;
+	margin-top: -1px;
 }
-
+.Woah {
+	display: inline-block;
+	border-left: 1px solid black;
+	line-height: 200%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px;
+	margin-top: 5px;
+	margin-bottom: -10px;
+	margin-left: 8px;
+	color: blue;
+	letter-spacing: 0px;
+}
+}
 .Ironyard {
-
-
+	padding-top: 3px;
 }
+a:first-child {
+	color: blue;
+	text-decoration: underline;
+}
+
+/* "COMMENTPOSTS" CODING
+*/
+.wrapper {
+	margin-left: 164px;
+	width: 620px;
+	font-family: 'Open Sans', sans-serif;
+	display: inline-block;
+}
+.wrapper .first img {
+	display: inline-block;
+	background-color: grey;
+	background-size: 30px;
+	font-size: 14px;
+	float: left;
+}
+.wrapper .first span{
+	display: inline-block;
+	background-color: grey;
+	padding-left: 10px;
+	font-size: 14px;
+	max-width: 200px;
+	float: left;
+}
+.wrapper .second img {
+	display: inline-block;
+	background-color: grey;
+	text-align: center;
+	float: left;
+}
+.wrapper .second span {
+	display: inline-block;
+	padding-left: 40px;
+	background-color: grey;
+	font-size: 14px;
+	float: left;
+}
+.wrapper .third img {
+	display: inline-block;
+	padding-left: 60px;
+	background-color: grey;
+	color: white;
+	float: left;
+}
+.wrapper .third span {
+	display: inline-block;
+	display: inline-block;
+	padding-left: 10px;
+	font-size: 14px;
+	background-color: blue;
+	float: left;
+}
+/* "CENTERED HED" CODING
+
+
+*/
+.popular h3 {
+	margin-left: 0;
+	margin-right: 0;
+	width: 1300px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 62px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 73px;
+	margin-bottom: 0px;
+	border-top: 1px solid black;
+	padding-top: 19px;
+}
+/* "BOTTOM MUGS" CODING
+
+
+*/
+.gallery img {
+margin: -2px;
+border-right: 0px;
+padding-top: 32px;
+}
+
 
