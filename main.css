@@ -1,4 +1,4 @@
-/* CLASS "TOPIMAGE" CODING
+/* "TOPIMAGE" CODING
 */
 header {
   background-image: url("assets/header.jpg");
@@ -62,25 +62,42 @@ h6.seched {
 	padding-top: 3px;
 	padding-left: 6px;
 }
+/* "TEXTBLOCK" CODING
+*/
+.textblock {
+	margin-left: 163px;
+	margin-top: 63px;
+	width: 600px;
+}
+.textblock h2 {
+	font-family: 'Oswald', sans-serif;
+	margin-top: 14px;
+	color: black;
+	font-size: 65px;
+	line-height: 68px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.tinyimage.img {
+	max-width: 20%;
+}
 
+.textblock p {
+width: 550px;
+font-family: 'Open Sans', sans-serif;
+}
+	
+}
 
+}
 
 }
 
 }
 
 
-.mug {
-	float-right: 60px;
-}
 .name {
-overflow: auto;
-font-family: 'Oswald', sans-serif;
-text-align: center;
-margin-top: 30px;
-color: white;
-font-size: 60px;
-}
+
 .name > span{
 	float: top;
 	color: black;
@@ -100,8 +117,3 @@ h2 {
 
 }
 
-p {
-margin-left: 60px;
-width: 550px;
-font-family: 'Open Sans', sans-serif;
-}
