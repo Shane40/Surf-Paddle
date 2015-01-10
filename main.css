@@ -105,7 +105,7 @@ h2 {
 	padding-left: 6px;
 	padding-right: 6px;
 	padding-top: 3px;
-		padding-bottom: 10px;
+	padding-bottom: 10px;
 	padding-bottom: 9px;
 	vertical-align: 3px;
 }
@@ -347,12 +347,64 @@ p > span {
 }
 .bottoms img {
 	clear: both;
-	margin-right: -4px;
+	margin-right: -5px;
 	padding-top: 32px;
+	margin-bottom: 0px;
+	padding-bottom: -2px;
 }
 
+/* BOTTOM BAR CODING
+
+
+*/
+
+.barbottom  {
+	width: 1300px;
+	border-color: none;
+	margin-right: 0;
+	background-color: teal;
+	margin-top: -4px;
+}
+.barbottom .image  {
+	float: left;
+	width: 30px;
+	color: white;
+	padding-left: 70px;
+	padding-top: 25px;
+	padding-left: 80px;
+}
+.barbottom p  {
+	width: 400px;
+	overflow: auto;
+	margin-left: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: white;
+	padding-left: 30px;
+	padding-top: 22px;
+	padding-bottom: 32px;
+}
+.barbottom .flushright {
+	float: right;
+	color: white;
+	width: 400px;
+	margin-right: 50px;
+	font-famly: 'Open Sans', sans-serif;
+	font-size: 13px;
+	padding-top: 22px;
+	padding-bottom: 32px;
+}
 
 /* "BOTTOM MUGS TEXT" CODING
+
+ position: absolute;
+   top: 200px;
+   left: 0;
+   width: 100%;
+   margin: 0 auto;
+   width: 300px;
+   height: 50px;
+
 
 
 */
