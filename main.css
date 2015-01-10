@@ -1,5 +1,8 @@
 /* "TOPIMAGE" CODING
 */
+body {
+	max-width: 1160px;
+}
 header {
   background-image: url("assets/header.jpg");
 	width: 1160px;
@@ -62,157 +65,295 @@ h6.seched {
 	padding-top: 3px;
 	padding-left: 6px;
 }
-/* "TEXTBLOCK" CODING
-*/
-.textblock {
+/* MAINCONTAINER CODING / RIGHT
+--xxxx.boxleft {
+	float: left;
+	width: 400px;
 	margin-left: 163px;
-	margin-top: 63px;
-	width: 620px;
-}
-.textblock h2 {
-	width: 620px;
-	font-family: 'Oswald', sans-serif;
-	margin-top: 14px;
-	color: black;
-	font-size: 65px;
-	line-height: 70px;
-	text-transform: uppercase;
-	margin-bottom: 10px;
-	margin-left: 0px;
-	border-right: 0px;
-}
-.tinyimage img {
+	margin-bottom: 12px;
+	margin-right: 0px;	-
+
+	.Ironyard {
 	padding-top: 3px;
-	padding-left: 5px;
 }
-.textblock p {
+---
+---
+*/
+
+.boxleft {
+	float: left;
+	margin-left: 163px;
+	margin-bottom: 32px;
 	width: 620px;
-	padding-top: 20px;
-	font-family: 'Open Sans', sans-serif;
-	line-height: 25px;
+}
+h2 {
+	float: left;
+	margin-bottom: 5px;
+	width: 620px;
+	margin-top: 65px;
+	margin-bottom: 6px;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	font-size: 62px;
+	line-height: 70px;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+}
+.tinyimage {
+	display: inline-block;
+	float: left;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 3px;
+		padding-bottom: 10px;
+	padding-bottom: 9px;
+	vertical-align: 3px;
 }
 .Anne {
 	display: inline-block;
+	padding-top: 8px;
 	color: blue;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
-	margin-left: 4px;
-	margin-top: -8px;
+	}
+p {
+	display: inline-block;
+	width: 620px;
+	padding-top: 26px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 27.5px;
+	margin: 0px;
 }
 .on {
-	display: inline-block;
 	color: black;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
-	margin-left: 8px;
+	margin-left: 10px;
 	margin-top: -1px;
 }
 .Monday {
-	display: inline-block;
 	color: black;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 	text-decoration: underline;
-	margin-left: 0px;
+	margin-left: 3px;
 	margin-top: -1px;
 }
 .Woah {
-	display: inline-block;
-	border-left: 1px solid black;
-	line-height: 200%;
+	width: 600px;
+	float: left;
+	padding-left: 14px;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 28px;
-	margin-top: 5px;
-	margin-bottom: -10px;
-	margin-left: 8px;
+	border-left: 1px solid black;
+	line-height: 200%;
+	margin-bottom: 0px;
+	margin-top: 18px;
+	margin-left: 10px;
 	color: blue;
 	letter-spacing: 0px;
 }
-}
-.Ironyard {
-	padding-top: 3px;
-}
-a:first-child {
+p > span {
 	color: blue;
 	text-decoration: underline;
 }
-
 /* "COMMENTPOSTS" CODING
+.wrapper {
+	float: left;
+	margin-top: 0px;
+	width: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
 */
 .wrapper {
-	margin-left: 164px;
-	width: 620px;
-	font-family: 'Open Sans', sans-serif;
-	display: inline-block;
+	margin-bottom: 68px;
+	margin-top: 8px;
 }
 .wrapper .first img {
-	display: inline-block;
-	background-color: grey;
-	background-size: 30px;
-	font-size: 14px;
 	float: left;
-}
-.wrapper .first span{
-	display: inline-block;
+	margin-left: 4px;
+	width: 18px;
+	padding-left: 6px;
+	padding-top: 7px;
+	padding-bottom: 6px;
+	padding-right: 6px;
 	background-color: grey;
-	padding-left: 10px;
-	font-size: 14px;
-	max-width: 200px;
-	float: left;
+	margin-right: 0px;
 }
-.wrapper .second img {
-	display: inline-block;
-	background-color: grey;
+.wrapper .first p {
+	color: white;
+	margin-right: 6px;
+	vertical-align: center;
 	text-align: center;
 	float: left;
-}
-.wrapper .second span {
-	display: inline-block;
-	padding-left: 40px;
-	background-color: grey;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 120px;
+	background-color: lightgrey;
+	padding-top: 2px;
+	padding-left: 3px;
+	padding-bottom: 2px;
+	padding-right: 3px;
 	font-size: 14px;
+}
+.wrapper .second img{
 	float: left;
+	margin-left: 7px;
+	width: 22px;
+	padding-left: 6px;
+	padding-top: 7px;
+	padding-bottom: 6px;
+	padding-right: 6px;
+	background-color: grey;
+	margin-right: 0px;
+}
+.wrapper .second p {
+	color: white;
+	margin-right: 6px;
+	vertical-align: center;
+	text-align: center;
+	float: left;
+	margin-right: 0px;
+	margin-left: 1px;
+	width: 90px;
+	background-color: lightgrey;
+	padding-top: 2px;
+	padding-left: 3px;
+	padding-bottom: 2px;
+	padding-right: 3px;
+	font-size: 14px;
 }
 .wrapper .third img {
-	display: inline-block;
-	padding-left: 60px;
+	float: left;
+	margin-left: 11px;
+	width: 18px;
+	padding-left: 6px;
+	padding-top: 7px;
+	padding-bottom: 6px;
+	padding-right: 6px;
 	background-color: grey;
+	margin-right: 0px;
+}
+.wrapper .third p {
 	color: white;
+	margin-right: 6px;
+	vertical-align: center;
+	text-align: center;
 	float: left;
-}
-.wrapper .third span {
-	display: inline-block;
-	display: inline-block;
-	padding-left: 10px;
-	font-size: 14px;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 120px;
 	background-color: blue;
-	float: left;
+	padding-top: 3px;
+	padding-left: 2px;
+	padding-bottom: 0px;
+	padding-right: 3px;
+	font-size: 14px;
 }
+/* MAINCONTAINER CODING / RIGHT
+---
+---
+---
+*/
+.boxright {
+	float: right;
+	width: 300px;
+	margin-top: 85px;
+	text-align: left;
+}
+.avatar {
+	float: right;
+	padding-right: 95px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.byline {
+	float: right;
+	padding-right: 110px;
+	text-align: center;
+	margin-top: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: blue;
+}
+.social {
+	float: right;
+	padding-right: 70px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	margin-bottom: 50px;
+}
+.paddlegirl img {
+	float: right;
+	padding-right: 18px;
+}
+.aboutthisad {
+	width: 100px;
+	float: right;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	margin-top: 3px;
+	margin-bottom: 0px;
+	margin-right: 17px;
+	text-align: right;
+	text-decoration: underline;
+}
+.sidebarsection b {
+	width: 300px;
+	float: right;
+	margin-top: 49px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	color: blue;
+	text-transform: uppercase;
+}
+.sidebarsectiontext {
+	float: right;
+	width: 300px;
+	margin-left: 20px;
+	text-align: left;
+	margin-top: 8px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+}
+
 /* "CENTERED HED" CODING
 
 
 */
 .popular h3 {
+	clear: both;
 	margin-left: 0;
 	margin-right: 0;
+	margin-top: 73px;
 	width: 1300px;
 	font-family: 'Oswald', sans-serif;
 	font-size: 62px;
 	text-align: center;
 	text-transform: uppercase;
-	margin-top: 73px;
 	margin-bottom: 0px;
 	border-top: 1px solid black;
-	padding-top: 19px;
+	padding-top: 30px;
 }
 /* "BOTTOM MUGS" CODING
 
 
 */
-.gallery img {
-margin: -2px;
-border-right: 0px;
-padding-top: 32px;
+
+.bottomimages {
+	width: 1800px;
+}
+.bottoms img {
+	clear: both;
+	margin-right: -4px;
+	padding-top: 32px;
 }
 
+
+/* "BOTTOM MUGS TEXT" CODING
+
+
+*/
 
