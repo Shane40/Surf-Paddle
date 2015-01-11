@@ -38,7 +38,7 @@ header {
 	float: right;
 	font-family: 'Oswald', sans-serif;
 	font-size: 17.6px;
-	padding-right: 10px;
+	padding-right: 15px;
 	text-transform: uppercase;
 	padding-top: 18.7px;
 }
@@ -344,13 +344,19 @@ p > span {
 
 .bottomimages {
 	width: 1800px;
+	margin: -10px;
 	position: relative;
-	margin-bottom: 2px;
-}
-.bottoms img {
-	margin: -3px;
+	margin-bottom: 0px;
 	padding-top: 32px;
+	opacity: .5;
 }
+.bottoms img.highlighted {
+	opacity: .5;
+	margin: -2px;
+}
+.bottoms img:hover {
+    opacity: .5;
+ }
 .firstbot {
 	position: absolute;
 	bottom: 12px;
@@ -403,7 +409,7 @@ p > span {
 */
 
 .barbottom  {
-	width: 1300px;
+	width: 1340px;
 	border-color: none;
 	margin-right: 0;
 	background-color: teal;
@@ -438,18 +444,36 @@ p > span {
 	padding-top: 22px;
 	padding-bottom: 32px;
 }
-
-/* "BOTTOM MUGS TEXT" CODING
-
- position: absolute;
-   top: 200px;
-   left: 0;
-   width: 100%;
-   margin: 0 auto;
-   width: 300px;
-   height: 50px;
-
-
+/* BOTTOM TEXT BLOCK WITH BACKGROUND CODING
 
 */
-
+.footertext {
+  	background: lightblue;
+  	display: inline-block;
+	width: 1300px;
+	height: 95px;
+	margin-bottom: 0px;
+}
+.ironimage img {
+	float: left;
+	padding-top: 28px;
+	padding-left: 163px;
+}
+.blockone {
+	float: left;
+	width: 400px;
+	padding-top: 33px;
+	color: white;
+	margin-left: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+.blocktwo  {
+	float: right;
+	width: 400px;
+	margin-left: 30px;
+	margin-right: 80px;
+	padding-top: 33px;
+	color: white;
+	font-size: 12px;
+}
