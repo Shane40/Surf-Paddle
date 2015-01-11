@@ -344,13 +344,57 @@ p > span {
 
 .bottomimages {
 	width: 1800px;
+	position: relative;
+	margin-bottom: 2px;
 }
 .bottoms img {
-	clear: both;
-	margin-right: -5px;
+	margin: -3px;
 	padding-top: 32px;
-	margin-bottom: 0px;
-	padding-bottom: -2px;
+}
+.firstbot {
+	position: absolute;
+	bottom: 12px;
+	left: 14px;
+	margin-right: 0;
+	width: 300px;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+}
+.secondbot {
+	position: absolute;
+	bottom: 12px;
+	left: 340px;
+	margin-right: 0;
+	width: 300px;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+}
+.thirdbot {
+	position: absolute;
+	bottom: 16px;
+	left: 660px;
+	margin-right: 0;
+	width: 250px;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	line-height: 33px;
+}
+.fourthbot {
+	position: absolute;
+	bottom: 12px;
+	left: 1000px;
+	margin-right: 0;
+	width: 200px;
+	color: white;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
 }
 
 /* BOTTOM BAR CODING
@@ -365,7 +409,7 @@ p > span {
 	background-color: teal;
 	margin-top: -4px;
 }
-.barbottom .image  {
+.barbottom .image {
 	float: left;
 	width: 30px;
 	color: white;
@@ -389,7 +433,7 @@ p > span {
 	color: white;
 	width: 400px;
 	margin-right: 50px;
-	font-famly: 'Open Sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 13px;
 	padding-top: 22px;
 	padding-bottom: 32px;
