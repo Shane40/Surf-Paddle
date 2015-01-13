@@ -1,0 +1,479 @@
+/* "TOPIMAGE" CODING
+
+Follow the above style guide
+There should not be any ID's in your CSS.
+All colors, font families, fixed width sizes etc should be in variables.
+Any reusable rules should be converted to mixins
+Make sure to use nesting, but don't go too deep
+*/
+
+//variables
+$main-font: 'Open Sans';
+$secondary-font: 'Oswald';
+$copy-width: 620px;
+$hed-color: hsl(0,0%,100%);
+$text-color: blue;
+$tiny-background: lightgrey;
+$tinyimage-background: grey;
+
+//mixins
+@mixin main-text-style ($size){
+	font-family: $main-font;
+	font-size: $size;
+}
+@mixin secondary-text-style ($size){
+	font-family: $secondary-font;
+	font-size: $size;
+}
+body {
+	max-width: 1160px;
+}
+header {
+  	background-image: url("assets/header.jpg");
+	width: 1160px;
+	height: 523px;
+	padding-left: 141px;
+
+	.wave {
+	float: left;
+	padding-top: 11.5px;
+	padding-right: 12.5px;
+	}
+	.blog {
+	@include main-text-style (16px);
+	text-transform: uppercase;
+	float: left;
+	padding-top: 21px;
+	}
+	.search-icon {
+	float: right;
+	padding-right: 170px;
+	padding-top: 21px;
+	}
+	.search {
+	@include secondary-text-style (17.6px);
+	float: right;
+	text-transform: uppercase;
+	padding-right: 5px;
+	padding-top: 18.7px;
+	}
+	.aboutone {
+	@include secondary-text-style (17.6px);
+	float: right;
+	padding-right: 15px;
+	text-transform: uppercase;
+	padding-top: 18.7px;
+	}
+	h1.mainhed {
+	@include main-text-style (100px);
+	color: $hed-color;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 210px;
+	padding-left: 1px;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 1019px;
+	letter-spacing: -3px;
+	line-height: 100%;
+	}
+	h6.seched {
+	@include main-text-style (14px);
+	width: 1019px;
+	text-align: center;
+	margin-top: 0;
+	padding-top: 3px;
+	padding-left: 6px;
+	}
+}
+/* MAINCONTAINER CODING / RIGHT
+
+*/
+
+.boxleft {
+	width: $copy-width;
+	float: left;
+	margin-left: 163px;
+	margin-bottom: 32px;
+
+	h2 {
+	@include secondary-text-style (62px);
+	float: left;
+	margin-bottom: 5px;
+	margin-top: 65px;
+	margin-bottom: 6px;
+	color: black;
+	line-height: 70px;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	}
+	.tinyimage {
+	display: inline-block;
+	float: left;
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 3px;
+	padding-bottom: 10px;
+	padding-bottom: 9px;
+	vertical-align: 3px;
+	}
+	.Anne {
+	@include main-text-style (13px);
+	display: inline-block;
+	padding-top: 6px;
+	color: $text-color;
+	}
+	p {
+	@include main-text-style (15px);
+	display: inline-block;
+	padding-top: 26px;
+	line-height: 27.5px;
+	margin: 0px;
+	}
+	.on {
+	@include main-text-style (13px);
+	color: black;
+	margin-left: 10px;
+	margin-top: -1px;
+	}
+	.Monday {
+	@include main-text-style (13px);
+	color: black;
+	text-decoration: underline;
+	margin-left: 3px;
+	margin-top: -1px;
+	}
+	.Woah {
+	@include main-text-style (28px);
+	width: 600px;
+	float: left;
+	padding-left: 8px;
+	border-left: 1px solid black;
+	line-height: 200%;
+	margin-bottom: 0px;
+	margin-top: 16px;
+	margin-left: 10px;
+	color: $text-color;
+	letter-spacing: 0px;
+	}
+	p > span {
+	color: $text-color;
+	text-decoration: underline;
+	}
+}
+/* "COMMENTPOSTS" CODING
+
+*/
+.wrapper {
+	margin-bottom: 68px;
+	margin-top: 8px;
+}
+.wrapper .first img {
+	float: left;
+	margin-left: 4px;
+	width: 18px;
+	padding-left: 6px;
+	padding-top: 7px;
+	padding-bottom: 6px;
+	padding-right: 6px;
+	background-color: $tinyimage-background;
+	margin-right: 0px;
+	}
+.wrapper .first p {
+	color: white;
+	margin-right: 6px;
+	vertical-align: center;
+	text-align: center;
+	float: left;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 120px;
+	background-color: $tiny-background;
+	padding-top: 2px;
+	padding-left: 3px;
+	padding-bottom: 2px;
+	padding-right: 3px;
+	font-size: 14px;
+}
+.wrapper .second img{
+	float: left;
+	margin-left: 7px;
+	width: 22px;
+	padding-left: 6px;
+	padding-top: 7px;
+	padding-bottom: 6px;
+	padding-right: 6px;
+	background-color: $tinyimage-background;
+	margin-right: 0px;
+}
+.wrapper .second p {
+	color: white;
+	margin-right: 6px;
+	vertical-align: center;
+	text-align: center;
+	float: left;
+	margin-right: 0px;
+	margin-left: 1px;
+	width: 90px;
+	background-color: $tiny-background;
+	padding-top: 2px;
+	padding-left: 3px;
+	padding-bottom: 2px;
+	padding-right: 3px;
+	font-size: 14px;
+}
+.wrapper .third img {
+	float: left;
+	margin-left: 11px;
+	width: 18px;
+	padding-left: 6px;
+	padding-top: 7px;
+	padding-bottom: 6px;
+	padding-right: 6px;
+	background-color: $tinyimage-background;
+	margin-right: 0px;
+}
+.wrapper .third p {
+	color: white;
+	margin-right: 6px;
+	vertical-align: center;
+	text-align: center;
+	float: left;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 120px;
+	background-color: $text-color;
+	padding-top: 3px;
+	padding-left: 2px;
+	padding-bottom: 0px;
+	padding-right: 3px;
+	font-size: 14px;
+	}
+/* MAINCONTAINER CODING / RIGHT
+---
+---
+---
+*/
+.boxright {
+	float: right;
+	width: 300px;
+	margin-top: 85px;
+	text-align: left;
+}
+.avatar {
+	float: right;
+	padding-right: 95px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.byline {
+	@include main-text-style (16px);
+	float: right;
+	padding-right: 110px;
+	text-align: center;
+	margin-top: 10px;
+	color: $text-color;
+}
+.social {
+	@include main-text-style (14px);
+	float: right;
+	padding-right: 70px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.paddlegirl img {
+	float: right;
+	padding-right: 18px;
+}
+.aboutthisad {
+	@include main-text-style (12px);
+	width: 100px;
+	float: right;
+	margin-top: 3px;
+	margin-bottom: 0px;
+	margin-right: 17px;
+	text-align: right;
+	text-decoration: underline;
+}
+.sidebarsection b {
+	@include secondary-text-style (18px);
+	width: 300px;
+	float: right;
+	margin-top: 49px;
+	color: $text-color;
+	text-transform: uppercase;
+}
+.sidebarsectiontext {
+	@include main-text-style (14px);
+	float: right;
+	width: 300px;
+	margin-left: 20px;
+	text-align: left;
+	margin-top: 8px;
+	line-height: 20px;
+}
+
+/* "CENTERED HED" CODING
+
+
+*/
+.popular h3 {
+	@include secondary-text-style (62px);
+	clear: both;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 73px;
+	width: 1300px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	border-top: 1px solid black;
+	padding-top: 30px;
+}
+/* "BOTTOM MUGS" CODING
+
+
+*/
+.bottomimages {
+	width: 1800px;
+	margin: -2px;
+	position: relative;
+	margin-bottom: 0px;
+	padding-top: 37px;
+	opacity: .5;
+	border-style: 0;
+	border-radius: 0;
+}
+.bottoms img.highlighted {
+	opacity: .5;
+	margin: -2px;	
+}
+
+//.opaque1 {
+//	background-color: green;
+//	position: absolute;
+//	opacity: .5;
+//	width: 300px;
+//	height: 300px;
+//}
+
+
+.bottoms img:hover {
+    opacity: .5;
+    background-color: $text-color;
+ }
+.firstbot {
+	@include secondary-text-style (30px);
+	position: absolute;
+	bottom: 12px;
+	left: 14px;
+	margin-right: 0;
+	width: 300px;
+	color: white;
+	text-transform: uppercase;
+}
+.secondbot {
+	@include secondary-text-style (30px);
+	position: absolute;
+	bottom: 12px;
+	left: 340px;
+	margin-right: 0;
+	width: 300px;
+	color: white;
+	text-transform: uppercase;
+}
+.thirdbot {
+	@include secondary-text-style (30px);
+	position: absolute;
+	bottom: 16px;
+	left: 660px;
+	margin-right: 0;
+	width: 250px;
+	color: white;
+	text-transform: uppercase;
+	line-height: 33px;
+}
+.fourthbot {
+	@include secondary-text-style (30px);
+	position: absolute;
+	bottom: 12px;
+	left: 1000px;
+	margin-right: 0;
+	width: 200px;
+	color: white;
+	text-transform: uppercase;
+}
+
+/* BOTTOM BAR CODING
+*/
+
+.barbottom  {
+	width: 1300px;
+	border-color: none;
+	margin-right: 0;
+	background-color: grey;
+	margin-top: -4px;
+}
+.barbottom .image {
+	float: left;
+	width: 30px;
+	color: white;
+	padding-left: 70px;
+	padding-top: 25px;
+	padding-left: 80px;
+}
+.barbottom p  {
+	width: 400px;
+	overflow: auto;
+	margin-left: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: white;
+	padding-left: 30px;
+	padding-top: 22px;
+	padding-bottom: 32px;
+}
+.barbottom .flushright {
+	float: right;
+	color: white;
+	width: 400px;
+	margin-right: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	padding-top: 22px;
+	padding-bottom: 32px;
+}
+/* BOTTOM TEXT BLOCK WITH BACKGROUND CODING
+
+*/
+.footertext {
+  	background: grey;
+  	display: inline-block;
+  	padding-top: -2px;
+	width: 1297px;
+	height: 95px;
+	margin-bottom: 0px;
+}
+.ironimage img {
+	float: left;
+	padding-top: 25px;
+	padding-left: 163px;
+}
+.blockone {
+	float: left;
+	width: 400px;
+	padding-top: 35px;
+	color: white;
+	margin-left: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+.blocktwo  {
+	float: right;
+	width: 400px;
+	margin-left: 30px;
+	margin-right: 65px;
+	padding-top: 25px;
+	color: white;
+	font-size: 12px;
+}
